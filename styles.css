@@ -1,0 +1,55 @@
+body {
+  font-family: 'Space Mono', Courier, monospace;
+  text-align: center;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-color: #f5f5f5;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f5f5f5;
+  font-family: 'Space Mono', Courier, monospace;
+}
+
+.description {
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  color: #333;
+  font-family: 'Space Mono', Courier, monospace;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #070a0f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Space Mono', Courier, monospace;
+}
+
+iframe {
+  display: none;
+  width: 60%;
+  height: 600px;
+  margin: 30px auto 0; /* Center horizontally */
+  border: none;
+}
+
+.logo-text {
+  font-family: 'Space Mono', Courier, monospace;
+  font-size: 64px;
+  color: #000000;
+  margin-left: 0px; /* Space between logo and text */
+  /*text-shadow: 3px 3px 8px #ff7e5f, 6px 6px 15px grey; /* Enhance gradient-like shadow for more pop */
+}

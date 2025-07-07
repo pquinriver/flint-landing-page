@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>flint</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="logo" style="display: flex; align-items: center;">
+    <img src="file.svg" alt="Logo" style="margin-right: 0px;">
+    <div class="logo-text">
+      <p style="margin: 0;">flint</p>
+    </div>
+  </div>
+
+  <div class="description">
+    We're building something game changing. Want to help shape it?
+  </div>
+
+  <button onclick="showForm()">Get Started</button>
+
+  <iframe
+    id="notion-form" 
+    src="https://rare-marjoram-bbc.notion.site/ebd/229cc3c18d81800591b5d287f20a0f06" 
+    frameborder="0">
+  </iframe> 
+
+  <script>
+    function showForm() {
+      document.getElementById('notion-form').style.display = 'block';
+      document.querySelector('button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
+
