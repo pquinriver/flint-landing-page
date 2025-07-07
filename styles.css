@@ -46,6 +46,12 @@ iframe {
   border: none;
 }
 
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
+
 .logo-text {
   font-family: 'Space Mono', Courier, monospace;
   font-size: 64px;
