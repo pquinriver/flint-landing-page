@@ -20,12 +20,12 @@ body {
 }
 
 .description {
+  text-align: left;
   max-width: 900px;
   margin: 0 auto 20px;
   font-size: 18px;
   color: #333;
   font-family: 'Space Mono', Courier, monospace;
-  text-align: left;
 }
 
 button {
