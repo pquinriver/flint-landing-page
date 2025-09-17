@@ -3,7 +3,7 @@ body {
   text-align: center;
   padding: 50px;
   background-color: #f5f5f5;
-  color: #02112c;
+  color: #2f3d67;
 }
 
 .logo {
@@ -25,14 +25,14 @@ body {
   max-width: 900px;
   margin: 0 auto 20px;
   font-size: 18px;
-  color: #02112c;
+  color: #2f3d67;
   font-family: Arial, sans-serif;
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #070a0f;
+  background-color: #2f3d67;
   color: white;
   border: none;
   border-radius: 5px;
