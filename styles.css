@@ -1,8 +1,9 @@
 body {
-  font-family: 'Space Mono', Courier, monospace;
+  font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
   background-color: #f5f5f5;
+  color: #02112c;
 }
 
 .logo {
@@ -24,8 +25,8 @@ body {
   max-width: 900px;
   margin: 0 auto 20px;
   font-size: 18px;
-  color: #333;
-  font-family: 'Space Mono', Courier, monospace;
+  color: #02112c;
+  font-family: Arial, sans-serif;
 }
 
 button {
@@ -61,7 +62,7 @@ iframe {
   /*text-shadow: 3px 3px 8px #ff7e5f, 6px 6px 15px grey; /* Enhance gradient-like shadow for more pop */
 }
 .logo-img {
-  width: 500px;   /* change this number to resize the logo */
+  width: 250px;   /* change this number to resize the logo */
   height: auto;   /* keeps the right proportions */
   margin-right: 10px;
 }
